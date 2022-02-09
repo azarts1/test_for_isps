@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  test:
+      build: .
+      environment:
+        DEBUG: 1
+      ports:
+        - "8001:8001"
